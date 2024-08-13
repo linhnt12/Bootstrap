@@ -1,0 +1,143 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 90px;
+}
+
+.nav .active {
+  color: #10c9c3;
+}
+
+.nav-link {
+  color: black;
+}
+
+.menu-right {
+  width: 20%;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  background-image: url(../Images/about/banner1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.heading h1 {
+  font-size: 40pt;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.heading p {
+  font-size: 13pt;
+  font-weight: 500;
+}
+
+/* End Header */
+
+/* Contact */
+
+.contact {
+  padding: 100px;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .text {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 30pt;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact p {
+  margin: 0;
+  font-size: 13pt;
+  font-weight: 500;
+  color: #787878;
+}
+
+.name-email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-email input {
+  width: 45%;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 30px;
+  border-width: 0px;
+  padding: 15px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 30px;
+  border-width: 0px;
+  padding: 15px;
+}
+
+.button {
+  background-color: #10c9c3;
+  padding: 20px 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 12pt;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+/* End Contact */
+
+/* Map */
+.map {
+  text-align: center;
+  padding-top: 100px;
+}
+/* End Map */
+
+/* Footer */
+.footer {
+  background-color: black;
+  padding: 70px;
+  color: #bcbcbc;
+}
+
+.footer .company {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+/* End Footer */

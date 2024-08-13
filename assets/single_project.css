@@ -1,0 +1,121 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 90px;
+}
+
+.nav .active {
+  color: #10c9c3;
+}
+
+.nav-link {
+  color: black;
+}
+
+.menu-right {
+  width: 20%;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  background-image: url(../Images/about/banner1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.heading h1 {
+  font-size: 40pt;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.heading p {
+  font-size: 13pt;
+  font-weight: 500;
+}
+
+/* End Header */
+
+/* Content */
+.content .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .text h1 {
+  font-size: 30pt;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.content .text p {
+  margin: 0;
+  font-size: 13pt;
+  font-weight: 500;
+  color: #787878;
+}
+
+.content b {
+  color: black;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+}
+/* End Content */
+
+/* Navigation */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item .icon {
+  font-size: 30px;
+} 
+
+.nav-item p {
+  margin: 0;
+  font-weight: 600;
+}
+/* End Navigation */
+
+/* Footer */
+.footer {
+  background-color: black;
+  padding: 70px;
+  color: #bcbcbc;
+}
+
+.footer .company {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+/* End Footer */

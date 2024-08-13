@@ -1,0 +1,332 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+
+.header {
+  background-image: url(../Images/one-page/header-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 90px;
+}
+
+.menu-right {
+  width: 45%;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.header p {
+  font-size: 18pt;
+  color: #787878;
+  font-weight: 500;
+}
+
+.header h1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 38pt;
+}
+
+.header-content {
+  width: 90%;
+}
+
+/* End Header */
+
+.button {
+  background-color: #10c9c3;
+  padding: 20px 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 12pt;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+/* About */
+.about-content {
+  text-align: center;
+  padding: 90px 0px;
+}
+
+.about h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 30pt;
+}
+
+.about p {
+  margin-bottom: 30px;
+  font-size: 15pt;
+}
+
+/* End About */
+
+/* Skills */
+.skills .skills-content {
+  padding: 0px 130px;
+}
+
+.skills h2 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 30pt;
+}
+
+.skills p {
+  font-weight: 600;
+  font-size: 12pt;
+}
+
+.skills .progress {
+  height: 4px;
+  margin-bottom: 30px;
+}
+
+.skills .progress-bar {
+  background-color: #10c9c3;
+}
+
+.skills img {
+  width: 100%;
+  height: auto;
+}
+
+.skills .image {
+  padding: 0;
+}
+
+/* End Skills */
+
+/* Feature */
+.feature-content {
+  padding: 80px 80px;
+}
+
+.feature-box {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.feature-box .icon {
+  font-size: 28pt;
+}
+
+.feature-box p {
+  margin: 7px 25px;
+}
+
+.feature-box .number {
+  font-size: 18pt;
+  font-weight: 600;
+}
+
+.feature-box .text {
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+/* End Feature */
+
+/* Products */
+.products .col-3 {
+  padding: 0;
+}
+
+.products img {
+  width: 100%;
+  height: auto;
+}
+
+/* End Products */
+
+/* Work Process */
+.work-process {
+  text-align: center;
+  padding: 100px;
+}
+
+.work-process h1 {
+  font-size: 30pt;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.work-process p {
+  margin: 0;
+  font-size: 13pt;
+  font-weight: 500;
+  color: #787878;
+}
+
+.work-process .video {
+  background-image: url(../Images/Frame-2-1_0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.work-process .icon {
+  padding: 380px 0px;
+  color: #10c9c3;
+  font-size: 100px;
+}
+
+/* End Work Process */
+
+/* Tasks */
+.tasks {
+  background-color: #F5F5F5;
+  padding: 70px;
+}
+
+.tasks-items {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.tasks-items .icon {
+  font-size: 28pt;
+  color: #787878;
+  margin-bottom: 20px;
+}
+
+.tasks-items .title {
+  font-size: 12pt;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.tasks-items .content {
+  color: #787878;
+  font-weight: 500;
+}
+
+/* End Tasks */
+
+/* Quote */
+.quote {
+  font-size: 20pt;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  margin: 0;
+  background-color: #10C9C3;
+}
+
+.quote .text {
+  padding-top: 120px;
+}
+
+.quote .name {
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.quote .icon {
+  font-family: 18px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+/* End Quote */
+
+/* Logos */
+.logos .col {
+  display: flex;
+  justify-content: center;
+}
+
+.logos img {
+  padding: 20px;
+}
+/* End Logos */
+
+/* Contact */
+
+.contact {
+  padding: 100px;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 30pt;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact p {
+  margin: 0;
+  font-size: 13pt;
+  font-weight: 500;
+  color: #787878;
+}
+
+.contact form {
+  padding: 30px 120px;
+}
+
+.name-email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-email input {
+  width: 45%;
+}
+
+input {
+  width: 100%;
+  margin: 30px 0;
+  border-width: 0px;
+  padding: 15px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 30px;
+  border-width: 0px;
+  padding: 15px;
+}
+
+/* End Contact */
+
+/* Footer */
+.footer {
+  background-color: black;
+  padding: 70px;
+  color: #bcbcbc;
+}
+
+.footer .company {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+/* End Footer */
